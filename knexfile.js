@@ -37,11 +37,11 @@ module.exports = {
   production: {
     client: 'pg',
     connection: productionDbConnection,//could be an object or a string
-  },
   migrations: {
     directory: './data/migrations',
   },
   seeds: {
     directory: './data/seeds',
+  }
   },
 };
